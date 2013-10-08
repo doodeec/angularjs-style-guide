@@ -253,6 +253,10 @@ This especially applies to a file that has so much code that you'd need to scrol
 
 * Use `ng-bind` or `ng-cloak` instead of simple `{{ }}` to prevent flashing content.
 * Avoid writing complex code in the template.
+* If you have to use `style` dynamically (with scope variable) in the template, use `ng-style` instead to avoid Internet Explorer problems
+
+
+        <div ng-style="{'width': elementWidth+'px'}"> SomeDiv with variable width </div>
 
 #Routing
 
