@@ -261,7 +261,7 @@ This especially applies to a file that has so much code that you'd need to scrol
         $scope.myPosition = 'relative'
         ...
 
-        &lt;div ng-style="{'width': myWidth+'px', 'position': myPosition}"&gt;my beautifully styled div which will work in IE&lt;/div&gt;
+        <div ng-style="{'width': myWidth+'px', 'position': myPosition}">my beautifully styled div which will work in IE</div>;
 
 #Routing
 
